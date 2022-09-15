@@ -1,4 +1,4 @@
-export const config = {
+wx9afedf61c6de2bedexport const config = {
   /**
    * 公众号配置
    */
@@ -6,12 +6,12 @@ export const config = {
   // 公众号APP_ID
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_ID: "",
+  APP_ID: "wx9afedf61c6de2bed",
 
   // 公众号APP_SECRET
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_SECRET: "",
+  APP_SECRET: "a4aea6d15424981418dd3583a56b6d87",
 
   // 是否给文字设置多彩颜色, 和emoji不兼容
   // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
@@ -23,17 +23,17 @@ export const config = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: "老婆0",
+      name: "小郭宝贝",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "",
+      id: "oAK9I63-z004Y9OF1iYEWn7Y-Mls",
       // 你想对他发送的模板消息的模板ID
       useTemplateId: "",
       // 所在省份
-      province: "广东",
+      province: "天津",
       // 所在城市
-      city: "肇庆",
+      city: "西青",
       // 新历生日, 仅用作获取星座运势, 格式必须
-      horoscopeDate: '12-27',
+      horoscopeDate: '8-27',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
@@ -58,16 +58,16 @@ export const config = {
       ]
     },
     {
-      name: "老婆1",
-      id: "",
+      name: "小郭宝贝",
+      id: "oAK9I63-z004Y9OF1iYEWn7Y-Mls",
       useTemplateId: "",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
+      province: "天津",
+      city: "西青",
+      horoscopeDate: '8-27',
+      horoscopeDateType: '今日',
       openUrl: "https://wangxinleo.cn",
       festivals: [],
-      customizedDateList: []
+      customizedDateList: ["keyword": "love_day", date: "2022-09-15"]
     },
     {
       name: "老婆2",
@@ -108,9 +108,9 @@ export const config = {
   CALLBACK_USERS: [
     {
       // 一般都填自己
-      name: "自己",
+      name: "韩狗蛋",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "",
+      id: "oAK9I69866U4wTJTckW50At6hDzs",
     },
     // 你可以不断按格式往下增加
     // ...
@@ -123,9 +123,9 @@ export const config = {
   /** 天气相关 */
 
   // 默认所在省份, USERS 中没填的话, 会默认拿这里的省份
-  PROVINCE: "广东",
+  PROVINCE: "天津",
   // 默认所在城市, USERS 中没填的话, 会默认拿这里的城市
-  CITY: "惠州",
+  CITY: "西青",
 
   /** 重要节日相关 */
 
